@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Pacifico&display=swap');
 html, body, #container {
 	height: 100%;
 	width: 100%;
@@ -29,7 +30,51 @@ body, #container, #canvas {
 	color: white;
 	border: none;
 	background: none;
-	font-family: Helvetica;
+	font-family: 'Pacifico', cursive;
+	font-size: 25px;
+}
+
+#follow-us{
+	position: fixed;
+	top: 630px;
+	left: 15px;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+}
+
+#instagram-link {
+	position: fixed;
+	top: 630px;
+	left: 160px;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+}
+
+#github-link{
+	position: fixed;
+	top: 630px;
+	left: 285px;
+	padding: 5px;
+	color: white;
+	border: none;
+	font-family: 'Inconsolata', monospace;
+	font-size: 25px;
+}
+
+a { 
+	color: rgb(252, 252, 252); 
+	text-decoration: none;
+}
+
+a:hover{
+	color: tomato;
+	
 }
 
 #container {
@@ -42,3 +87,5 @@ body, #container, #canvas {
 	border: 1px solid white;
 	box-sizing: border-box;
 }
+
+
