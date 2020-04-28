@@ -36,7 +36,7 @@ body, #container, #canvas {
 
 #follow-us{
 	position: fixed;
-	top: 630px;
+	top: 95%;
 	left: 15px;
 	padding: 5px;
 	color: white;
@@ -47,7 +47,7 @@ body, #container, #canvas {
 
 #instagram-link {
 	position: fixed;
-	top: 630px;
+	top: 95%;
 	left: 160px;
 	padding: 5px;
 	color: white;
@@ -58,7 +58,7 @@ body, #container, #canvas {
 
 #github-link{
 	position: fixed;
-	top: 630px;
+	top: 95%;
 	left: 285px;
 	padding: 5px;
 	color: white;
